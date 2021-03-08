@@ -30,7 +30,10 @@ nav li {
 	display: flex;
 	justify-content: flex-end;
 }
-
+.emote{
+	display: flex;
+	padding: 10px;
+}
 .logements{
 	margin-bottom: 90px;
 }
@@ -97,30 +100,42 @@ nav li {
 	justify-content: flex-start;
 	margin-left: 0;
 }
+.inscription a{
+		color: #6fa7fd;
+		font-weight: bold;
+}
 .inscription{
-	font-weight:bolder;
-	color: blue;
+	margin-left: 25px;
 }
-a:hover{
-	color:blue ;
+.menu{
+	padding-right: 25px;	
+}
+.menu:hover{
+	border-top: solid; 
+	color: #2c80fd;
 	text-decoration: none;
-	border-top: solid;
-
 }
+
+
+
 label {
     display: flex;
     font-family: 'Raleway', sans-serif;
 }
 
 input{
-	height: 30px;
+	height: 40px;
+	border: solid lightgrey 2px;
+	border-radius: 10px;
+	padding:0px;
+
 }
-label {
-    
-}
+
 .formulaire{
 	margin-bottom: 30px;
-
+}
+.recherche{
+	
 }
 article{
 	font-weight: bold;
@@ -267,6 +282,7 @@ a{
 footer li{
 	list-style: none;
 }
+
 figcaption{
 	padding-top: 10px;
 	margin-left: 20px;
@@ -397,11 +413,11 @@ h3{
 		width: auto;
 	}
 	nav{
-		width: auto;
+		width: 150px;
 	}
 	nav ul{
 		flex-direction: column;
-		width: auto;
+		width: 200px;
 	}
 	strong{
 		text-align: center;
@@ -422,8 +438,9 @@ h3{
 		margin-bottom: 20px;
 	}
 	.logo{
-		width: 50%;
-		padding-bottom: 30px;
+		width: 110px;
+		height: 50px;
+		
 	}
 	.touthebergments{
 		flex-direction: column;
@@ -448,13 +465,15 @@ h3{
 	}
 	.titre2{
 		
-		text-align: center;
+		text-align: left;
 	}
 	.titre3{
-		text-align: center;
+		text-align: left;
+		margin: 0px;
 	}
 	.titre4{
-		text-align: center;
+		text-align: left;
+		margin: 0px;
 	}
 	.imagehaut{
 		flex-direction: column;
@@ -495,12 +514,14 @@ h3{
 		width: auto;
 		margin-top: 200px;
 		height: auto;
+		margin-left: 0px;
 	}
 	.imgaside{
 		width:auto;
 	}
 	.populaires{
 		width: auto;
+		
 	}
 	.popu{
 		width: auto;
@@ -508,7 +529,7 @@ h3{
 	h3{
 		font-size: 15px;
 	}
-	#container2{
+	#hebergement{
 		width: auto;
 		flex-direction: column;
 		height: auto;
@@ -519,5 +540,23 @@ h3{
 		width: auto;
 		flex-direction: column;
 		height: auto;
+		margin-left: 0px;
 	}
-}
+	.menu{
+		order: 1;
+		font-size: 20px;
+		font-weight: bold;
+		
+	}
+	.inscription{
+		order: -1;
+		align-items: flex-end;
+		font-weight: bold;
+		font-size: 20px;
+		margin-left: 100px;
+		margin-bottom: 50px;
+	}
+	.inscription a{
+		color: #6fa7fd;
+	}
+}	
