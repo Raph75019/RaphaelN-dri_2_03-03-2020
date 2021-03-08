@@ -29,6 +29,13 @@ nav li {
 .menu{
 	display: flex;
 	justify-content: flex-end;
+	/*padding-right: 25px;*/
+	
+}
+.menu__li:hover{
+	border-top: solid; 
+	color: #2c80fd;
+	text-decoration: none;
 }
 .emote{
 	display: flex;
@@ -107,16 +114,6 @@ nav li {
 .inscription{
 	margin-left: 25px;
 }
-.menu{
-	padding-right: 25px;	
-}
-.menu:hover{
-	border-top: solid; 
-	color: #2c80fd;
-	text-decoration: none;
-}
-
-
 
 label {
     display: flex;
