@@ -135,7 +135,7 @@ label {
 }
 
 input {
-  height: 40px;
+  height: 41px;
   border: solid lightgrey 1px;
 }
 
@@ -143,9 +143,7 @@ input {
    margin-bottom: 30px;
    padding-right: 20px;
 }
-.rechercher{
-  padding: 10px;
-}
+
 article {
   font-weight: bold;
   margin-top: 7px;
@@ -165,17 +163,18 @@ span {
   border-bottom-left-radius: 30px;
   color: black;
    border: solid lightgrey 1px;
-  height: 20px;
+  height: 21px;
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 8px;
 }
 button {
   background-color: #0065fc;
   color: white;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-   height: 40px;
+   height: 41px;
      border: solid lightgrey 1px;
      border-left: none;
      width: 8%;
@@ -545,4 +544,44 @@ h3 {
   .inscription a {
     color: #6fa7fd;
   }
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+
+label {
+    margin: .4rem 0;
+}
+
+input {
+  height: 40px;
+  border: solid lightgrey 1px;
+}
+
+.recherche{
+   margin-bottom: 30px;
+   padding-right: 20px;
+}
+.fa-map-marker-alt {
+  background-color: lightgrey;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: black;
+   border: solid lightgrey 1px;
+  height: 20px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+button {
+  background-color: #0065fc;
+  color: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+   height: 40px;
+     border: solid lightgrey 1px;
+     border-left: none;
+     width: 8%;
+}
 }
