@@ -135,11 +135,11 @@ label {
 }
 
 input {
-  height: 41px;
   border: solid lightgrey 1px;
 }
 
 .recherche{
+  display: flex;
    margin-bottom: 30px;
    padding-right: 20px;
 }
@@ -163,7 +163,6 @@ span {
   border-bottom-left-radius: 30px;
   color: black;
    border: solid lightgrey 1px;
-  height: 21px;
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
@@ -174,12 +173,12 @@ button {
   color: white;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-   height: 41px;
      border: solid lightgrey 1px;
      border-left: none;
-     width: 8%;
 }
-
+.fas icone{
+  visibility: hidden;
+}
 .fas fa-money-bill-wave {
   margin-right: 50px;
 }
@@ -557,11 +556,10 @@ label {
 }
 
 input {
-  height: 40px;
   border: solid lightgrey 1px;
 }
-
 .recherche{
+  display: flex;
    margin-bottom: 30px;
    padding-right: 20px;
 }
@@ -571,19 +569,19 @@ input {
   border-bottom-left-radius: 30px;
   color: black;
    border: solid lightgrey 1px;
-  height: 20px;
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 8px;
 }
 button {
-  background-color: #0065fc;
+   border: solid lightgrey 1px;
+   border-left: none;
+}
+.button__recherche{
+  display: none;
+}
+.fas icone{
   color: white;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-   height: 40px;
-     border: solid lightgrey 1px;
-     border-left: none;
-     width: 8%;
 }
 }
