@@ -16,7 +16,7 @@ nav {
   align-items: center;
   justify-content: flex-end;
 }
-nav ul {
+nav div {
   display: flex;
   justify-content: flex-end;
 }
@@ -28,7 +28,7 @@ nav li {
 .menu {
   display: flex;
   justify-content: flex-end;
-  margin-right: 25px;
+  margin-right: 10px;
 }
 .menu__li:hover {
   border-top: solid;
@@ -125,7 +125,7 @@ h2{
   font-weight: bold;
 }
 .inscription {
-  margin-left: 25px;
+ 
 }
 
 label {
@@ -180,9 +180,10 @@ button {
      border: solid lightgrey 1px;
      border-left: none;
 }
-.emo_icone{
-  display: none;
+.emo_recherche{
+ color: white;
 }
+b
 #hebergement {
   width: 100%;
   background-color: #efefef;
@@ -413,7 +414,7 @@ h3 {
   nav {
     width: 150px;
   }
-  nav ul {
+  nav div {
     flex-direction: column;
     width: 200px;
   }
@@ -535,13 +536,14 @@ h3 {
     order: 1;
     font-size: 20px;
     font-weight: bold;
+    margin-right: 25px;
   }
   .inscription {
     order: -1;
     align-items: flex-end;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 100px;
+    margin-left:50px;
     margin-bottom: 50px;
   }
   .inscription a {
@@ -564,8 +566,9 @@ input {
   display: flex;
    margin-bottom: 30px;
    padding-right: 20px;
+
 }
-.fa-map-marker-alt {
+.emo_map-marker {
   background-color: lightgrey;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -587,8 +590,7 @@ button {
 .button__recherche{
   display: none;
 }
-.fas icone{
-  color: white;
-  display: block;
+.emo_recherche{
+  
 }
 }
