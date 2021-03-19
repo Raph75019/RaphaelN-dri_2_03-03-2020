@@ -594,5 +594,12 @@ button {
 .button__recherche{
   display: none;
 }
-
+.styletrois{
+  align-items: center;
+  margin-right: 35px;
+}
+.large{
+  align-items: center;
+  margin-left: 30px;
+}
 }
