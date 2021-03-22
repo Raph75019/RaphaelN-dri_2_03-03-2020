@@ -66,36 +66,39 @@ nav li {
   border: 2px solid #efefef;
 }
 
-.emo_billet {
+.emo-billet {
   border-radius: 30px;
   background-color: #b0e0e6;
   border-width: 10px;
   padding: 9px;
   color: #0065fc;
 }
-.emo_famille {
+.emo-famille {
   border-radius: 30px;
   background-color: #b0e0e6;
   padding: 9px;
   color: #0065fc;
 }
-.emo_romantique {
+.emo-romantique {
   border-radius: 30px;
   background-color: #b0e0e6;
   padding: 9px;
   color: #0065fc;
 }
-.emo_animaux {
+.emo-animaux {
   border-radius: 30px;
   background-color: #b0e0e6;
   padding: 9px;
   color: #0065fc;
 }
-.emo_info {
+.emo-info {
   border-radius: 150%;
   border: 1px solid #b0e0e6;
   padding: 8px;
   color: #0065fc;
+}
+.emo-recherche{
+  display: none;
 }
 .p1 {
   font-weight: bold;
@@ -146,7 +149,7 @@ input {
    padding-right: 20px;
 }
 
-article {
+.fort {
   font-weight: bold;
   margin-top: 7px;
 }
@@ -159,7 +162,7 @@ span {
   padding-right: 10px;
 }
 
-.emo_map-marker {
+.emo-map-marker {
   background-color: lightgrey;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
@@ -188,27 +191,18 @@ button {
   height: 800px;
 }
 
-.imagehaut {
+.images {
   display: flex;
   height: 50%;
 }
-.imagehaut img {
+.images img {
   width: 80%;
 
   height: 200px;
-}
-.imagebas img {
-  width: 80%;
-
-  height: 200px;
-}
-.imagebas {
-  display: flex;
-  height: 50%;
 }
 h4 {
  
-   font-weight: bold;
+   font-weight: bolder;
   font-size: 16px;
 }
 aside {
@@ -316,6 +310,7 @@ h3 {
   margin-left: 40px;
   font-weight: bold;
 }
+
 .populaires img {
   margin: 0;
   width: 40%;
@@ -331,7 +326,7 @@ h3 {
 .p3 {
   margin-left: 20px;
 }
-.rangerA {
+.ranger-a {
   background-color: white;
   margin: 0 25px;
   border-radius: 30px;
@@ -340,21 +335,7 @@ h3 {
   border: 5px solid white;
   box-shadow: 10px 5px 5px #f5f5f5;
 }
-.rangerA img {
-  width: 100%;
-  height: 130px;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-}
-.rangerB {
-  background-color: white;
-  margin: 0 25px;
-  border-radius: 30px;
-  height: 250px;
-  border: 5px solid white;
-  box-shadow: 10px 5px 5px #f5f5f5;
-}
-.rangerB img {
+.ranger-a img {
   width: 100%;
   height: 130px;
   border-top-right-radius: 30px;
@@ -609,5 +590,8 @@ button {
 .large{
   align-items: center;
   margin-left: 30px;
+}
+.emo_recherche{
+  display: block;
 }
 }
