@@ -245,6 +245,7 @@ aside {
   width: 130%;
   border-radius: 30px;
   box-shadow: 10px 5px 5px #f5f5f5;
+  object-fit: cover;
 
 }
 .styledeux {
