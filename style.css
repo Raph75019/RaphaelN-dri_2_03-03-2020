@@ -233,8 +233,8 @@ aside {
   height: 400px;
   width: 100%;
   border-radius: 30px;
-    border: 5px solid white;
-  box-shadow: 10px 5px 5px lightgrey;
+  box-shadow: 1px 5px 5px lightgrey;
+  border: 5px white;
 }
 .imageactivites img {
   height: 110%;
@@ -247,11 +247,11 @@ aside {
   width: 60%;
   margin-left: 60px;
   border-radius: 30px;
-    border: 5px solid white;
-  box-shadow: 10px 5px 5px lightgrey;
+  box-shadow: 1px 5px 5px lightgrey;
+  border: 5px white;
 }
 .styledeux img {
-  width: 105%;
+  width: 230px;
   height: 80%;
   border-radius: 30px;
 }
@@ -284,8 +284,6 @@ figcaption {
   font-weight: bold;
   padding-bottom: 10px;
 }
-
-
 .populaires {
   display: flex;
   background-color: white;
@@ -448,18 +446,11 @@ h3 {
     text-align: left;
     margin: 0px;
   }
-  .imagehaut {
+  .images {
     flex-direction: column;
     padding-bottom: 10px;
   }
-  .rangerA {
-    flex-direction: column;
-    margin-bottom: 30px;
-  }
-  .imagebas {
-    flex-direction: column;
-  }
-  .rangerB {
+  .ranger-a {
     flex-direction: column;
     margin-bottom: 30px;
   }
