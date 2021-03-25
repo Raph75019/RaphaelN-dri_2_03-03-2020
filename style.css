@@ -224,37 +224,7 @@ aside {
   width: 40%;
   margin-left: 40px;
 }
-#activites {
-  display: flex;
-  height: 10%;
-  margin-left: 10px;
-}
-.imageactivites {
-  height: 400px;
-  width: 100%;
-  border-radius: 30px;
-  box-shadow: 1px 5px 5px lightgrey;
-  border: 5px white;
-}
-.imageactivites img {
-  height: 110%;
-  width: 130%;
-  border-radius: 30px;
-  object-fit: cover;
-}
-.styledeux {
-  height: 240px;
-  width: 60%;
-  margin-left: 60px;
-  border-radius: 30px;
-  box-shadow: 1px 5px 5px lightgrey;
-  border: 5px white;
-}
-.styledeux img {
-  width: 230px;
-  height: 80%;
-  border-radius: 30px;
-}
+
 footer {
   margin-top: 110px;
   width: 100%;
@@ -346,12 +316,37 @@ h3 {
 .etoilee{
   color: #0065fc;
 }
+#activites {
+  display: flex;
+  height: 10%;
+  margin-left: 10px;
+}
+.imageactivites {
+  height: 400px;
+  border-radius: 30px;
+}
+.imageactivites img {
+  height: 120%;
+  border-radius: 30px;
+  object-fit: cover;
+  width: 270px;
+
+}
+.styledeux {
+  height: 240px;
+  border-radius: 30px;
+  box-shadow: 1px 5px 5px lightgrey;
+  border: 5px white;
+}
+.styledeux img {
+  width: 230px;
+  height: 80%;
+  border-radius: 30px;
+}
 .styletrois{
   flex-direction: column;
 }
 .large{
-  width: 100%;
-  padding-right: 110px;
 }
 
 /**responsive**/
