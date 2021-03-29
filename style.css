@@ -186,7 +186,7 @@ button {
 }
 #hebergement {
   width: 100%;
-  background-color: #efefef;
+  background-color: #F2F2F2;
   border-radius: 30px;
   height: 800px;
 }
@@ -207,7 +207,7 @@ h4 {
 }
 aside {
   width: 40%;
-  background-color: #efefef;
+  background-color: #F2F2F2;
   border-radius: 30px;
   margin-left: 30px;
   padding-left: 35px;
@@ -485,6 +485,7 @@ body {
     flex-direction: column;
     height: auto;
     margin-left: 0px;
+    background-color: #F2F2F2;
   }
   .menu {
     order: 1;
