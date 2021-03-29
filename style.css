@@ -327,7 +327,7 @@ h3 {
   border: 5px white;
 }
 .imageactivites img {
-  height: 480px;
+  height: 450px;
   object-fit: cover;
   width: 270px;
    border-radius:30px 30px 0 0;
@@ -338,6 +338,7 @@ h3 {
   background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
+
 }
 .styledeux img {
   width: 230px;
@@ -358,16 +359,204 @@ h3 {
   }
 }
 @media all and (min-width: 905px) and (max-width: 1024px) {
-  body {
+body {
     width: auto;
   }
   nav {
-    width: auto;
+    width: 150px;
+  }
+  nav div {
+    flex-direction: column;
+    width: 200px;
+  }
+  .menu__li{
+    margin-right: 230px;
   }
   strong {
     text-align: center;
   }
+  .filtre {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  p {
+    flex-direction: column;
+    text-align: left;
+  }
+  .formulaire {
+    text-align: center;
+  }
+  article {
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  .logo {
+    width: 110px;
+    height: 50px;
+  }
+  .touthebergements {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    width: 500px;
+    margin-left: 300px;
+  }
+  #activites {
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+  .imageactivites {
+    width: auto;
+
+  }
+  .imageactivites img{
+    width: 400px;
+  }
+  .styledeux {
+    width: auto;
+    height: 240px;
+    margin-left: 75px;
+  }
+  .styledeux img{
+    height: 200px;
+    width: 350px;
+  }
+  .titre2 {
+    text-align: left;
+  }
+  .titre3 {
+    text-align: left;
+    margin: 0px;
+  }
+  .titre4 {
+    text-align: left;
+    margin: 0px;
+  }
+  .images {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  .ranger-a {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .photohebergement {
+    flex-direction: column;
+    align-items: center;
+  }
+  .etoile {
+    flex-direction: column;
+    text-align: left;
+  }
+  .etoileee {
+    flex-direction: column;
+    text-align: left;
+  }
+  .etoiles {
+    flex-direction: column;
+    text-align: left;
+  }
+  aside {
+    width: auto;
+    margin-top: 200px;
+    height: auto;
+    margin-left: 0px;
+  }
+  .imgaside {
+    width: auto;
+  }
+  .populaires {
+    width: auto;
+  }
+  .popu {
+    width: auto;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  #hebergement {
+    width: auto;
+    flex-direction: column;
+    height: auto;
+  }
+  footer {
+    width: auto;
+    flex-direction: column;
+    height: auto;
+    margin-left: 0px;
+  }
+  .menu {
+    order: 1;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+  }
+  .inscription {
+    order: -1;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:50px;
+    margin-bottom: 50px;
+  }
+  .inscription a {
+    color: #6fa7fd;
+  }
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
 }
+
+
+label {
+    margin: .4rem 0;
+}
+
+input {
+  border: solid lightgrey 1px;
+}
+.recherche{
+  display: flex;
+   margin-bottom: 30px;
+   padding-right: 20px;
+
+}
+.emo_map-marker {
+  background-color: lightgrey;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: black;
+   border: solid lightgrey 1px;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+button {
+  background-color: #0065fc;
+  color: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+     border: solid lightgrey 1px;
+     border-left: none;
+}
+.button__recherche{
+  display: none;
+}
+.styletrois{
+  align-items: center;
+  margin-right: 45px;
+}
+.large{
+  align-items: center;
+
+}
+.emo_recherche{
+  display: block;
+}
+}
+
 @media all and (min-width: 320px) and (max-width: 905px) {
   body {
     width: auto;
