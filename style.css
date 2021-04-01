@@ -187,9 +187,7 @@ button {
      border: solid lightgrey 1px;
      border-left: none;
 }
-.emo_recherche{
- color: white;
-}
+
 #hebergement {
   width: 100%;
   background-color: #F2F2F2;
@@ -624,7 +622,15 @@ button {
   .menu__li{
     margin-right: 20px;
   }
-  
+  .menu__li:hover {
+  border-bottom: solid;
+  color: #2c80fd;
+  border-top: none;
+}
+.menu__li:hover a {
+  color: #2c80fd;
+  text-decoration: none;
+}
   strong {
     text-align: center;
   }
@@ -661,12 +667,13 @@ button {
   background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
+  margin-bottom: 5px;
   
 }
 .imageactivites img {
   height: 150px;
   object-fit: cover;
-  width: 280px;
+  width: 300px;
   border-radius:20px 20px 0 0;
 }
   .styledeux {
@@ -680,6 +687,7 @@ button {
   background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
+  margin-bottom: 5px;
 }
 .stylequatre img{
    border-radius:20px 20px 0 0;
@@ -694,6 +702,7 @@ button {
   background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
+  margin-bottom: 5px;
 }
 .stylecinq img{
   border-radius: 20px 20px 0 0;
@@ -701,11 +710,11 @@ button {
 }
 .notredame{
   height: 150px;
-  width: 280px;
+  width: 300px;
 }
 .parc{
   height: 150px;
-  width: 280px;
+  width: 300px;
 }
 .fortdepomegue{
   height: 150px;
@@ -729,12 +738,14 @@ button {
   .images {
     flex-direction: column;
     padding-bottom: 10px;
-    width: 90%;
-    padding-right: 50px;
+    padding-right: 60px;
+    margin: 0;
+
   }
   .ranger-a {
     flex-direction: column;
     margin-bottom: 30px;
+    width: 100%;
   }
   .ranger-a img {
   width: 100%;
@@ -799,19 +810,15 @@ button {
     align-items: flex-end;
     font-weight: bold;
     font-size: 20px;
-    margin: 0;
+    margin-left: 30px;
   }
   .inscription a {
     color: #6fa7fd;
   }
-  label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
-}
-
-
 label {
     margin: .4rem 0;
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
 }
 
 input {
@@ -837,8 +844,8 @@ input {
 button {
   background-color: #0065fc;
   color: white;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
      border: solid lightgrey 1px;
      border-left: none;
 }
@@ -847,11 +854,9 @@ button {
 }
 .styletrois{
   align-items: center;
-  margin-right: 45px;
 }
 .large{
   align-items: center;
-
 }
 .emo-recherche{
   display: block;
