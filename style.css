@@ -1,10 +1,8 @@
-#container {
-  width: 100%;
-}
+
 body {
   font-family: "Raleway", sans-serif;
-
   height: 100%;
+  margin: 0;
 }
 header {
   display: flex;
@@ -13,22 +11,25 @@ header {
 
 nav {
   display: flex;
-  align-items: center;
   justify-content: flex-end;
 }
 nav div {
   display: flex;
   justify-content: flex-end;
 }
-
 nav li {
   list-style: none;
-  margin-left: 20px;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+.menu__li{
+  margin-left: 75px;
 }
 .menu {
   display: flex;
   justify-content: flex-end;
-  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .menu__li:hover {
   border-top: solid;
@@ -68,32 +69,32 @@ nav li {
 
 .emo-billet {
   border-radius: 30px;
-  background-color: #b0e0e6;
+  background-color: #DEEBFF;
   border-width: 10px;
   padding: 9px;
   color: #0065fc;
 }
 .emo-famille {
   border-radius: 30px;
-  background-color: #b0e0e6;
+  background-color: #DEEBFF;
   padding: 9px;
   color: #0065fc;
 }
 .emo-romantique {
   border-radius: 30px;
-  background-color: #b0e0e6;
+  background-color: #DEEBFF;
   padding: 9px;
   color: #0065fc;
 }
 .emo-animaux {
   border-radius: 30px;
-  background-color: #b0e0e6;
+  background-color: #DEEBFF;
   padding: 9px;
   color: #0065fc;
 }
 .emo-info {
   border-radius: 150%;
-  border: 1px solid #b0e0e6;
+  border: 1px solid #DEEBFF;
   padding: 8px;
   color: #0065fc;
 }
@@ -118,7 +119,7 @@ h2{
 }
 
 .logo {
-  width: 15%;
+  width: 10%;
   display: flex;
   justify-content: flex-start;
   margin-left: 0;
@@ -126,6 +127,10 @@ h2{
 .inscription a {
   color: #6fa7fd;
   font-weight: bold;
+}
+.inscription{
+  margin-top: 0px;
+  margin-right: 30px;
 }
 
 
@@ -147,6 +152,7 @@ input {
   display: flex;
    margin-bottom: 30px;
    padding-right: 20px;
+   height: 40px;
 }
 
 .fort {
@@ -164,8 +170,8 @@ span {
 
 .emo-map-marker {
   background-color: lightgrey;
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   color: black;
    border: solid lightgrey 1px;
   padding: 10px;
@@ -176,8 +182,8 @@ span {
 button {
   background-color: #0065fc;
   color: white;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
      border: solid lightgrey 1px;
      border-left: none;
 }
@@ -197,7 +203,6 @@ button {
 }
 .images img {
   width: 80%;
-
   height: 200px;
 }
 h4 {
@@ -260,7 +265,7 @@ figcaption {
   border-radius: 30px;
   height: 150px;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: 5px solid white;
   box-shadow: 10px 5px 5px #f5f5f5;
 }
@@ -273,8 +278,9 @@ h3 {
 .populaires img {
   margin: 0;
   width: 40%;
-  border-bottom-left-radius: 30px;
-  border-top-left-radius: 30px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  object-fit: cover;
 }
 .popu {
   margin-left: 20px;
@@ -288,21 +294,28 @@ h3 {
 .ranger-a {
   background-color: white;
   margin: 0 25px;
-  border-radius: 30px;
-  height: 250px;
+  border-radius: 20px;
+  height: 245px;
   border: 5px white;
   border: 5px solid white;
   box-shadow: 10px 5px 5px #f5f5f5;
+  width: 100%;
 }
+
 .ranger-a img {
   width: 100%;
-  height: 130px;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
+  height: 110px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  object-fit: cover;
+}
+.emo-star{
+  color: #F2F2F2;
 }
 .etoile {
   margin-left: 20px;
   color: #0065fc;
+  padding-bottom: 20px;
 }
 .etoiles {
   margin-left: 20px;
@@ -321,34 +334,73 @@ h3 {
   height: 10%;
 }
 .imageactivites {
-  border-radius: 30px;
+  border-radius: 20px;
   background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
 }
 .imageactivites img {
-  height: 450px;
+  height: 380px;
   object-fit: cover;
-  width: 270px;
-   border-radius:30px 30px 0 0;
+  width: 280px;
+  border-radius:20px 20px 0 0;
 }
 .styledeux {
-  height: 240px;
-  border-radius: 30px;
+  border-radius: 20px;
   background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
+  margin-right: 0;
+  margin-left: 0;
 
+}
+.stylequatre{
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 5px 5px lightgrey;
+  border: 5px white;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 50px;
+
+}
+.stylequatre img{
+   border-radius:20px 20px 0 0;
+  object-fit: cover;
 }
 .styledeux img {
-  width: 230px;
-  height: 80%;
-  border-radius:30px 30px 0 0;
+  border-radius:20px 20px 0 0;
+  object-fit: cover;
 }
-.styletrois{
-  flex-direction: column;
+.stylecinq{
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 5px 5px lightgrey;
+  border: 5px white;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 50px;
 }
-
+.stylecinq img{
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.notredame{
+  height: 130px;
+  width: 280px;
+}
+.parc{
+  height: 150px;
+  width: 280px;
+}
+.fortdepomegue{
+  height: 175px;
+  width: 300px;
+}
+.iles{
+  height: 110px;
+  width: 300px;
+}
 /**responsive**/
 @media all and (min-width: 1024px) and (max-width: 1600px) {
   body {
@@ -358,7 +410,7 @@ h3 {
     width: auto;
   }
 }
-@media all and (min-width: 905px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 992px) {
 body {
     width: auto;
   }
@@ -542,9 +594,6 @@ button {
      border: solid lightgrey 1px;
      border-left: none;
 }
-.emo-recherche{
-  display: none;
-}
 .styletrois{
   align-items: center;
   margin-right: 45px;
@@ -553,12 +602,15 @@ button {
   align-items: center;
 
 }
-.emo_recherche{
+.emo-recherche{
   display: block;
+}
+.button__recherche{
+  display: none;
 }
 }
 
-@media all and (min-width: 320px) and (max-width: 905px) {
+@media all and (min-width: 320px) and (max-width: 768px) {
   body {
     width: auto;
   }
@@ -572,6 +624,7 @@ button {
   .menu__li{
     margin-right: 20px;
   }
+  
   strong {
     text-align: center;
   }
@@ -602,21 +655,66 @@ button {
   #activites {
     flex-direction: column;
     align-items: center;
-    width: auto;
   }
   .imageactivites {
-    width: auto;
-
-  }
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 5px 5px lightgrey;
+  border: 5px white;
+  
+}
+.imageactivites img {
+  height: 150px;
+  object-fit: cover;
+  width: 280px;
+  border-radius:20px 20px 0 0;
+}
   .styledeux {
-    width: auto;
-    height: 240px;
-    margin-left: 75px;
-  }
-  .styledeux img{
-    height: 200px;
-    width: 280px;
-  }
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 5px 5px lightgrey;
+  border: 5px white;
+}
+.stylequatre{
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 5px 5px lightgrey;
+  border: 5px white;
+}
+.stylequatre img{
+   border-radius:20px 20px 0 0;
+  object-fit: cover;
+}
+.styledeux img {
+  border-radius:20px 20px 0 0;
+  object-fit: cover;
+}
+.stylecinq{
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 5px 5px lightgrey;
+  border: 5px white;
+}
+.stylecinq img{
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+.notredame{
+  height: 150px;
+  width: 280px;
+}
+.parc{
+  height: 150px;
+  width: 280px;
+}
+.fortdepomegue{
+  height: 150px;
+  width: 300px;
+}
+.iles{
+  height: 150px;
+  width: 300px;
+}
   .titre2 {
     text-align: left;
   }
@@ -631,11 +729,20 @@ button {
   .images {
     flex-direction: column;
     padding-bottom: 10px;
+    width: 90%;
+    padding-right: 50px;
   }
   .ranger-a {
     flex-direction: column;
     margin-bottom: 30px;
   }
+  .ranger-a img {
+  width: 100%;
+  height: 110px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  object-fit: cover;
+}
   .photohebergement {
     flex-direction: column;
     align-items: center;
@@ -685,15 +792,14 @@ button {
     order: 1;
     font-size: 20px;
     font-weight: bold;
-    margin-right: 25px;
+    margin-right: 15px;
   }
   .inscription {
     order: -1;
     align-items: flex-end;
     font-weight: bold;
     font-size: 20px;
-    margin-left:50px;
-    margin-bottom: 50px;
+    margin: 0;
   }
   .inscription a {
     color: #6fa7fd;
