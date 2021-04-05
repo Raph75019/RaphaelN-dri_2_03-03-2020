@@ -92,6 +92,7 @@ body {
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-bottom: 5px;
+  margin-top: 0;
 }
 .stylecinq img{
   border-radius: 20px 20px 0 0;
