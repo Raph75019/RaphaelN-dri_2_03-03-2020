@@ -40,13 +40,20 @@ body {
     width: 110px;
     height: 50px;
   }
-  .touthebergements {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
-    width: 500px;
-    margin-left: 150px;
-  }
+  aside {
+  width: auto;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+}
+.touthebergements {
+  display: flex;
+  width: auto;
+}
+#hebergement {
+  width: auto;
+  border-radius: 30px;
+  height: 500px;
+}
    #activites {
     flex-direction: column;
     align-items: center;
@@ -132,40 +139,14 @@ body {
   .ranger-a {
     flex-direction: column;
     margin-bottom: 30px;
-    width: 100%;
-    height: 220px;
-    margin-left: 0;
-    margin-right: 0;
+    width: auto;
   }
   .ranger-a img {
-  width: 100%;
-  height: 100px;
+  width: auto;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   object-fit: cover;
 }
-  .photohebergement {
-    flex-direction: column;
-    align-items: center;
-  }
-  .etoile {
-    flex-direction: column;
-    text-align: left;
-  }
-  .etoileee {
-    flex-direction: column;
-    text-align: left;
-  }
-  .etoiles {
-    flex-direction: column;
-    text-align: left;
-  }
-  aside {
-    width: auto;
-    margin-top: 200px;
-    height: auto;
-    margin-left: 0px;
-  }
   .imgaside {
     width: auto;
   }
@@ -181,12 +162,7 @@ body {
   .p2{
     margin-left: 0;
   }
-  #hebergement {
-    width: auto;
-    flex-direction: column;
-    height: auto;
-    background: none;
-  }
+ 
   footer {
     width: auto;
     flex-direction: column;
