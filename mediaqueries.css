@@ -1,5 +1,5 @@
 /**responsive**/
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 768px) and (max-width: 992px) {
 body {
     width: auto;
   }
@@ -40,22 +40,14 @@ body {
     width: 110px;
     height: 50px;
   }
-  aside {
-  width: 260px;
-  background-color: #F2F2F2;
-  border-radius: 30px;
-}
-.touthebergements {
-  display: flex;
-  width: auto;
-}
-#hebergement {
-  width: 100%;
-  background-color: #F2F2F2;
-  border-radius: 30px;
-  height: 800px;
-}
- #activites {
+  .touthebergements {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    width: 500px;
+    margin-left: 150px;
+  }
+   #activites {
     flex-direction: column;
     align-items: center;
   }
@@ -70,7 +62,7 @@ body {
 .imageactivites img {
   height: 150px;
   object-fit: cover;
-  width: 300px;
+  width: 400px;
   border-radius:20px 20px 0 0;
 }
   .styledeux {
@@ -93,6 +85,7 @@ body {
 .styledeux img {
   border-radius:20px 20px 0 0;
   object-fit: cover;
+  width: 400px;
 }
 .stylecinq{
   border-radius: 20px;
@@ -108,19 +101,19 @@ body {
 }
 .notredame{
   height: 150px;
-  width: 300px;
+  width: 400px;
 }
 .parc{
   height: 150px;
-  width: 300px;
+  width: 400px;
 }
 .fortdepomegue{
   height: 150px;
-  width: 300px;
+  width: 400px;
 }
 .iles{
   height: 150px;
-  width: 300px;
+  width: 400px;
 }
   .titre2 {
     text-align: left;
@@ -133,29 +126,53 @@ body {
     text-align: left;
     margin: 0px;
   }
+  .images {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
   .ranger-a {
-  background-color: white;
-  margin: 0 25px;
-  border-radius: 20px;
-  height: 230px;
-  border: 5px white;
-  border: 5px solid white;
-  box-shadow: 10px 5px 5px #f5f5f5;
-  width: auto;
-}
-
-.ranger-a img {
-  width: 180px;
-  height: 90px;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 320px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .ranger-a img {
+  width: 100%;
+  height: 150px;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   object-fit: cover;
 }
+  .photohebergement {
+    flex-direction: column;
+    align-items: center;
+  }
+  .etoile {
+    flex-direction: column;
+    text-align: left;
+  }
+  .etoileee {
+    flex-direction: column;
+    text-align: left;
+  }
+  .etoiles {
+    flex-direction: column;
+    text-align: left;
+  }
+  aside {
+    order: -1;
+    width: auto;
+    margin-top: 200px;
+    height: auto;
+    margin-left: 0px;
+  }
   .imgaside {
     width: auto;
   }
   .populaires {
-    width: auto;
+    width: 490px;
   }
   .popu {
     width: auto;
@@ -166,7 +183,12 @@ body {
   .p2{
     margin-left: 0;
   }
- 
+  #hebergement {
+    width: auto;
+    flex-direction: column;
+    height: auto;
+    background: none;
+  }
   footer {
     width: auto;
     flex-direction: column;
