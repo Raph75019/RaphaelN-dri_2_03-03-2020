@@ -12,6 +12,7 @@ body {
   }
   .menu__li{
     margin-right: 140px;
+    border-bottom: lightgray solid;
   }
   .menu__li:hover {
   border-bottom: solid;
@@ -230,14 +231,12 @@ input {
   display: flex;
    margin-bottom: 30px;
    padding-right: 20px;
-
 }
 .emo_map-marker {
   background-color: lightgrey;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   color: black;
-   border: solid lightgrey 1px;
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
@@ -259,12 +258,13 @@ button {
 }
 }
 
-@media all and (min-width: 993px) and (max-width: 1024px) {
+@media all and (min-width: 993px) and (max-width: 1200px) {
 
 body {
   font-family: "Raleway", sans-serif;
   height: 100%;
   margin: 0;
+
 }
 header {
   display: flex;
@@ -608,6 +608,7 @@ h3 {
   object-fit: cover;
   width: 225px;
   border-radius:20px 20px 0 0;
+    flex-wrap: wrap;
 }
 .styledeux {
   border-radius: 20px;
@@ -651,11 +652,11 @@ h3 {
 }
 .notredame{
   height: 110px;
-  width: 195px;
+  width: 210px;
 }
 .parc{
   height: 130px;
-  width: 195px;
+  width: 210px;
 }
 .fortdepomegue{
   height: 160px;
@@ -664,5 +665,11 @@ h3 {
 .iles{
   height: 90px;
   width: 200px;
+}
+.styletois{
+  flex-wrap: wrap;
+}
+.Large{
+  flex-wrap: wrap;
 }
 }

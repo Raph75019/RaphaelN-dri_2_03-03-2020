@@ -8,7 +8,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
 nav {
   display: flex;
   justify-content: flex-end;
@@ -53,11 +52,14 @@ nav li {
   margin-left: 15px;
   font-weight: normal;
 }
+.filtres{
+  display: flex;
+}
 .filtre {
   display: flex;
-  margin-bottom: 90px;
+  margin-bottom: 30px;
 }
-.emoticone {
+.emoticone1 {
   margin: 0 20px;
   display: flex;
   justify-content: space-between;
@@ -66,7 +68,42 @@ nav li {
   padding-right: 10px;
   border: 2px solid #efefef;
 }
-
+.emoticone1 {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: white;
+  padding-right: 10px;
+  border: 2px solid #efefef;
+}
+.emoticone2 {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: white;
+  padding-right: 10px;
+  border: 2px solid #efefef;
+}
+.emoticone3 {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: white;
+  padding-right: 10px;
+  border: 2px solid #efefef;
+}
+.emoticone4 {
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 30px;
+  background-color: white;
+  padding-right: 10px;
+  border: 2px solid #efefef;
+}
 .emo-billet {
   border-radius: 30px;
   background-color: #DEEBFF;
@@ -156,9 +193,8 @@ input {
    height: 40px;
 }
 
-.fort {
-  font-weight: bold;
-  margin-top: 7px;
+.fort{
+  margin-top: 10px;
 }
 span {
   margin-left: 5px;
@@ -417,6 +453,7 @@ h3 {
   }
   .menu__li{
     margin-right: 20px;
+    border-bottom: lightgray solid;
   }
   .menu__li:hover {
   border-bottom: solid;
@@ -430,9 +467,30 @@ h3 {
   strong {
     text-align: center;
   }
+  .filtres{
+    flex-wrap: wrap;
+  }
   .filtre {
-    flex-direction: column;
-    align-items: flex-start;
+        flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .emoticone1{
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  .emoticone2{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .emoticone3{
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+  .emoticone4{
+    margin-left: 20px;
+    margin-bottom: 15px;
   }
   p {
     flex-direction: column;
