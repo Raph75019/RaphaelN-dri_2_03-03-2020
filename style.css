@@ -210,7 +210,6 @@ span {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   color: black;
-   border: solid lightgrey 1px;
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
@@ -294,9 +293,11 @@ figcaption {
   font-weight: bold;
   padding-bottom: 10px;
 }
+.background-white{
+  background-color: white;
+}
 .populaires {
   display: flex;
-  background-color: white;
   border-radius: 30px;
   height: 150px;
   width: 100%;
@@ -327,7 +328,6 @@ h3 {
   margin-left: 20px;
 }
 .ranger-a {
-  background-color: white;
   margin: 0 25px;
   border-radius: 20px;
   height: 245px;
@@ -370,7 +370,6 @@ h3 {
 }
 .imageactivites {
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
 }
@@ -382,7 +381,6 @@ h3 {
 }
 .styledeux {
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-right: 0;
@@ -391,7 +389,6 @@ h3 {
 }
 .stylequatre{
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-right: 0;
@@ -409,7 +406,6 @@ h3 {
 }
 .stylecinq{
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-right: 0;
@@ -685,11 +681,14 @@ label {
 
 input {
   border: solid lightgrey 1px;
+  width: 50vw;
 }
 .recherche{
   display: flex;
    margin-bottom: 30px;
    padding-right: 20px;
+   margin-left: 30px;
+   height: 45px;
 
 }
 .emo_map-marker {
@@ -708,8 +707,8 @@ button {
   color: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-     border: solid lightgrey 1px;
-     border-left: none;
+  border: solid lightgrey 1px;
+  border-left: none;
 }
 .button__recherche{
   display: none;
@@ -722,5 +721,6 @@ button {
 }
 .button__icone{
   display: block;
+  padding-bottom: 5px;
 }
 }
