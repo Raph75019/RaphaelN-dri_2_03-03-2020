@@ -518,7 +518,6 @@ h3 {
   }
   .imageactivites {
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-bottom: 5px;
@@ -531,14 +530,12 @@ h3 {
   border-radius:20px 20px 0 0;
 }
   .styledeux {
-  border-radius: 20px;
-  background-color: white;
+  border-radius: 20px;;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
 }
 .stylequatre{
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-bottom: 5px;
@@ -553,7 +550,6 @@ h3 {
 }
 .stylecinq{
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-bottom: 5px;
@@ -696,7 +692,6 @@ input {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   color: black;
-   border: solid lightgrey 1px;
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
@@ -722,5 +717,8 @@ button {
 .button__icone{
   display: block;
   padding-bottom: 5px;
+}
+.background-white{
+  background-color: white;
 }
 }

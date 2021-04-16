@@ -54,7 +54,6 @@ body {
   }
   .imageactivites {
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-bottom: 5px;
@@ -68,13 +67,11 @@ body {
 }
   .styledeux {
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
 }
 .stylequatre{
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-bottom: 5px;
@@ -90,7 +87,6 @@ body {
 }
 .stylecinq{
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-bottom: 5px;
@@ -255,6 +251,9 @@ button {
 }
 .button__recherche{
   display: none;
+}
+.background-white{
+  background-color: white;
 }
 }
 
@@ -436,7 +435,6 @@ span {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   color: black;
-   border: solid lightgrey 1px;
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
@@ -524,7 +522,6 @@ figcaption {
 }
 .populaires {
   display: flex;
-  background-color: white;
   border-radius: 30px;
   height: 150px;
   width: 100%;
@@ -556,7 +553,6 @@ h3 {
   margin-top: 0;
 }
 .ranger-a {
-  background-color: white;
   margin: 0 25px;
   border-radius: 20px;
   height: 245px;
@@ -599,7 +595,6 @@ h3 {
 }
 .imageactivites {
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
 }
@@ -612,7 +607,6 @@ h3 {
 }
 .styledeux {
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-right: 0;
@@ -621,7 +615,6 @@ h3 {
 }
 .stylequatre{
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-right: 0;
@@ -639,7 +632,6 @@ h3 {
 }
 .stylecinq{
   border-radius: 20px;
-  background-color: white;
   box-shadow: 1px 5px 5px lightgrey;
   border: 5px white;
   margin-right: 0;
@@ -671,5 +663,8 @@ h3 {
 }
 .Large{
   flex-wrap: wrap;
+}
+.background-white{
+  background-color: white;
 }
 }
