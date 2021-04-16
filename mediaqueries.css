@@ -257,7 +257,7 @@ button {
 }
 }
 
-@media all and (min-width: 993px) and (max-width: 1200px) {
+@media all and (min-width: 993px) and (max-width: 1300px) {
 
 body {
   font-family: "Raleway", sans-serif;
@@ -644,11 +644,11 @@ h3 {
 }
 .notredame{
   height: 110px;
-  width: 210px;
+  width: 195px;
 }
 .parc{
   height: 130px;
-  width: 210px;
+  width: 195px;
 }
 .fortdepomegue{
   height: 160px;
